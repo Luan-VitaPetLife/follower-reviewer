@@ -1,0 +1,7 @@
+.env
+.env.local
+.chrome-profile
+node_modules
+.next
+.vercel
+.env*.local

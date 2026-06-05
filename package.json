@@ -1,0 +1,23 @@
+{
+  "name": "sistema-de-leads",
+  "version": "0.1.0",
+  "description": "Agente local para prospeccao de nano e micro influenciadores pet.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "scraper": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^8.9.5",
+    "next": "^15.5.19",
+    "puppeteer": "^24.1.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

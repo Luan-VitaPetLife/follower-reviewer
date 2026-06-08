@@ -369,7 +369,7 @@ export default function HomePage() {
                 <label className="field">
                   <span>Nicho</span>
                   <select value={filters.niche} onChange={event => updateFilter('niche', event.target.value)}>
-                    <option value="all">Pet geral</option>
+                    <option value="all">Cães e gatos</option>
                     <option value="cats">Apenas gatos</option>
                     <option value="dogs">Apenas cães</option>
                   </select>
@@ -378,7 +378,7 @@ export default function HomePage() {
 
               <div className="two-col">
                 <label className="field">
-                  <span>Seguidores min.</span>
+                  <span>Mínimo de Seguidores</span>
                   <input
                     min="0"
                     type="number"
@@ -388,7 +388,7 @@ export default function HomePage() {
                 </label>
 
                 <label className="field">
-                  <span>Seguidores max.</span>
+                  <span>Máximo de Seguidores</span>
                   <input
                     min="1"
                     type="number"
